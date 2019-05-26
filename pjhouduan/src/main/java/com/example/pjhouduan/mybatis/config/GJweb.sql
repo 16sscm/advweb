@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS Teacher;
+CREATE TABLE IF NOT EXISTS Teacher (
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  name Text NOT NULL,
+  password Text NOT NULL,
+  head Text NOT NULL,
+  PRIMARY KEY (id)
+);
